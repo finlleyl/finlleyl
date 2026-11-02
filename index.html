@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ilia Chibugaev — Backend Go Developer</title>
+<meta name="description" content="Backend Go developer. About, tech stack and contacts.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232f6f4f'/><path d='M12 8v16M20 8v16' stroke='white' stroke-width='3'/></svg>">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f6f2;
+    --text: #1c1d1a;
+    --muted: #63665e;
+    --line: #dcdbd3;
+    --accent: #2f6f4f;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131512;
+      --text: #ecebe4;
+      --muted: #9a9d94;
+      --line: #2c2f29;
+      --accent: #7fc8a0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 96px 24px 64px; }
+  a { color: inherit; text-underline-offset: 3px; text-decoration-color: var(--line); }
+  a:hover { color: var(--accent); text-decoration-color: currentColor; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  h1 { margin: 0; font-size: clamp(40px, 8vw, 64px); line-height: 1.05; letter-spacing: -0.03em; font-weight: 650; }
+  .role { margin: 16px 0 0; font: 15px/1.5 var(--mono); color: var(--accent); }
+  .intro { margin: 24px 0 0; max-width: 56ch; font-size: 20px; line-height: 1.5; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 24px 0 0; padding: 0; list-style: none; font: 15px/1.5 var(--mono); }
+
+  section { margin-top: 72px; }
+  h2 { margin: 0 0 8px; font: 500 13px/1.5 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+  .about { margin: 16px 0 0; max-width: 62ch; }
+
+  dl { margin: 16px 0 0; display: grid; grid-template-columns: 120px 1fr; gap: 20px 24px; }
+  dt { padding-top: 4px; color: var(--muted); font-size: 15px; }
+  dd { margin: 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; font: 13px/1.5 var(--mono); }
+  .chips li { padding: 3px 10px; border: 1px solid var(--line); border-radius: 6px; }
+  .chips .primary { padding: 3px 14px; border-color: var(--accent); background: var(--accent); color: var(--bg); font-weight: 600; }
+
+  @media (max-width: 560px) {
+    main { padding-top: 56px; }
+    .intro { font-size: 18px; }
+    dl { grid-template-columns: 1fr; gap: 8px; }
+    dd { margin-bottom: 12px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Ilia Chibugaev</h1>
+    <p class="role">Backend Go Developer</p>
+    <p class="intro">I build backend services and APIs in Go.</p>
+    <ul class="links">
+      <li><a href="https://github.com/finlleyl">GitHub</a></li>
+      <li><a href="mailto:ilia.chibugaev@gmail.com">ilia.chibugaev@gmail.com</a></li>
+    </ul>
+  </header>
+
+  <section aria-labelledby="about">
+    <h2 id="about">About me</h2>
+    <p class="about">I'm a backend developer focused on Go. I work on microservices and APIs, using PostgreSQL and Redis for data, Kafka and RabbitMQ for messaging, and Docker and Kubernetes to run them. I also use Rust, C++ and Python, and work with AI/ML and AI coding tools.</p>
+  </section>
+
+  <section aria-labelledby="stack">
+    <h2 id="stack">Tech stack</h2>
+    <dl>
+      <dt>Languages</dt>
+      <dd><ul class="chips"><li class="primary">Go</li><li>Python</li><li>Rust</li><li>C++</li></ul></dd>
+      <dt>Databases</dt>
+      <dd><ul class="chips"><li>PostgreSQL</li><li>Redis</li><li>ClickHouse</li><li>MongoDB</li><li>MySQL</li><li>Elasticsearch</li><li>SQL</li><li>NoSQL</li></ul></dd>
+      <dt>Messaging</dt>
+      <dd><ul class="chips"><li>Kafka</li><li>RabbitMQ</li></ul></dd>
+      <dt>APIs</dt>
+      <dd><ul class="chips"><li>gRPC</li><li>REST API</li><li>HTTP</li><li>Microservices</li></ul></dd>
+      <dt>Infrastructure</dt>
+      <dd><ul class="chips"><li>Docker</li><li>Kubernetes</li><li>Linux</li><li>Git</li><li>CI/CD</li></ul></dd>
+      <dt>Monitoring</dt>
+      <dd><ul class="chips"><li>Grafana</li><li>Prometheus</li></ul></dd>
+      <dt>AI</dt>
+      <dd><ul class="chips"><li>AI/ML</li><li>Claude Code</li></ul></dd>
+    </dl>
+  </section>
+
+</main>
+</body>
+</html>

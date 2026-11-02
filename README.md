@@ -6,7 +6,7 @@
 
 I'm a backend developer focused on Go. I work on microservices and APIs, using PostgreSQL and Redis for data, Kafka and RabbitMQ for messaging, and Docker and Kubernetes to run them. I also use Rust, C++ and Python, and work with AI/ML and AI coding tools.
 
-📫 [ilia.chibugaev@gmail.com](mailto:ilia.chibugaev@gmail.com)
+🌐 [finlleyl.github.io/finlleyl](https://finlleyl.github.io/finlleyl/) · 📫 [ilia.chibugaev@gmail.com](mailto:ilia.chibugaev@gmail.com)
 
 ## Tech stack
 
