@@ -26,21 +26,12 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           plugin_languages: yes
-          plugin_languages_sections: most-used, recently-used
           plugin_languages_ignored: jupyter notebook
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
 
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 30
-
           plugin_lines: yes
           plugin_lines_sections: base, history
-
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
-          plugin_achievements_limit: 8
+          # GitHub computes contributor stats on the first request, so query twice
+          plugin_lines_delay: 30
