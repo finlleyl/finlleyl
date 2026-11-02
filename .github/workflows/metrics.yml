@@ -19,7 +19,7 @@ jobs:
           user: finlleyl
           filename: github-metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: ""
           config_timezone: Europe/Moscow
 
           plugin_isocalendar: yes
@@ -30,8 +30,3 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
-
-          plugin_lines: yes
-          plugin_lines_sections: base, history
-          # GitHub computes contributor stats on the first request, so query twice
-          plugin_lines_delay: 30
