@@ -1,1 +1,3 @@
-# finlleyl.github.io
+# Hi, I'm Ilia 👋
+
+![GitHub metrics](./github-metrics.svg)
