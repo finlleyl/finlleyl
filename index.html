@@ -54,6 +54,11 @@
   .chips li { padding: 3px 10px; border: 1px solid var(--line); border-radius: 6px; }
   .chips .primary { padding: 3px 14px; border-color: var(--accent); background: var(--accent); color: var(--bg); font-weight: 600; }
 
+  article { padding: 16px 0 0; }
+  h3 { margin: 0; font-size: 21px; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; }
+  article p { margin: 8px 0 0; color: var(--muted); max-width: 62ch; }
+  .tech { margin: 12px 0 0; font: 13px/1.6 var(--mono); }
+
   @media (max-width: 560px) {
     main { padding-top: 56px; }
     .intro { font-size: 18px; }
@@ -77,6 +82,15 @@
   <section aria-labelledby="about">
     <h2 id="about">About me</h2>
     <p class="about">I'm a backend developer focused on Go. I work on microservices and APIs, using PostgreSQL and Redis for data, Kafka and RabbitMQ for messaging, and Docker and Kubernetes to run them. I also use Rust, C++ and Python, and work with AI/ML and AI coding tools.</p>
+  </section>
+
+  <section aria-labelledby="projects">
+    <h2 id="projects">Projects</h2>
+    <article>
+      <h3><a href="https://github.com/finlleyl/hnsw">hnsw</a></h3>
+      <p>An in-memory approximate nearest neighbour index for float32 embeddings under cosine distance, built on the HNSW graph algorithm. Generic over key types, safe for concurrent searches, deterministic for a given seed, with no third-party dependencies.</p>
+      <p class="tech">Go · generics · vector search · Apache-2.0</p>
+    </article>
   </section>
 
   <section aria-labelledby="stack">
